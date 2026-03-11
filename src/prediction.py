@@ -5,7 +5,7 @@ import numpy as np
 
 class Insurance_Prediction:
     def __init__(self):
-        base_path = os.path.dirname(os.path.abspath(_file_))
+        base_path = os.path.dirname(os.path.abspath(__file__))
         artifacts_path = os.path.join(base_path, "..", "artifacts")
 
         scaler_file = os.path.join(artifacts_path, "scaler.pkl")
